@@ -52,20 +52,10 @@
           <div class="four columns">
             <div class="scroll">
 
-              <img src="assets/terrapinhackers.jpg" alt="" />
-
-              <img src="assets/test.jpg" alt="" />
-              <img src="assets/test.jpg" alt="" />
+              <img src="assets/technicadrone.png" alt="" id="technicadrone" />
 
               <img src="assets/test.jpg" alt="" />
 
-              <img src="assets/test.jpg" alt="" />
-
-              <img src="assets/test.jpg" alt="" />
-
-              <img src="assets/test.jpg" alt="" />
-
-              <img src="assets/test.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -113,7 +103,7 @@
     });
     $("#shell").on("click", function () {
       document.getElementById("title").innerHTML = "Startup Shell";
-      document.getElementById("title").style.body = "#BA3523";
+      document.getElementById("title").style.color = "#BA3523";
       document.getElementById("date").innerHTML = "ETA Sheller 2015 - present";
       document.getElementById("punchline").innerHTML = "Fostering tech and general awesomeness";
       document.getElementById("description").innerHTML = "DESCRIPTION HERE"
@@ -130,6 +120,13 @@
       document.getElementById("title").style.color = "#00B572";
       document.getElementById("date").innerHTML = "Member/Manager 2015 - present";
       document.getElementById("punchline").innerHTML = "Assisting in the development and furthering of new makerspaces on campus";
+      document.getElementById("description").innerHTML = "DESCRIPTION HERE"
+    });
+    $("#technicadrone").on("click", function () {
+      document.getElementById("title").innerHTML = "#DronePollock";
+      document.getElementById("title").style.color = "#FE7BAC";
+      document.getElementById("date").innerHTML = "November 2015";
+      document.getElementById("punchline").innerHTML = '<a href = "http://drone.gotechnica.org/">video</a> and <a href = "http://news.mlh.io/the-making-of-drone-pollock-03-10-2016">article</a>';
       document.getElementById("description").innerHTML = "DESCRIPTION HERE"
     });
   </script>
