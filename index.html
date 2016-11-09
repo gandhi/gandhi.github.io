@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,200,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <title>ishaan</title>
+
+</head>
+
+
+<body>
+
+
+  <!-- First -->
+  <section>
+
+    <div class="container">
+      <div class="row">
+        <div class="spacereighty"></div>
+      </div>
+      <div class="row">
+        <div class="name">ishaan parikh</div>
+      </div>
+      <div class="row">
+        <div class="spacersixty"></div>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="four columns">
+            <div class="scroll">
+              <img src="assets/terrapinhackers.jpg" alt="" id="terrapinhackers" />
+              <img src="assets/shell.png" alt="" id="shell" />
+              <img src="assets/shh.png" alt="" id="shh" />
+              <img src="assets/sb.png" alt="" id="sb" />
+            </div>
+          </div>
+          <div class="four columns">
+            <div id="title" class="title"></div>
+            <div id="date" class="date"></div>
+            <div class="spacertwenty"></div>
+            <div id="punchline" class="punchline"></div>
+            <div class="spacertwenty"></div>
+            <div id="description" class="description">
+            </div>
+          </div>
+          <div class="four columns">
+            <div class="scroll">
+
+              <img src="assets/terrapinhackers.jpg" alt="" />
+
+              <img src="assets/test.jpg" alt="" />
+              <img src="assets/test.jpg" alt="" />
+
+              <img src="assets/test.jpg" alt="" />
+
+              <img src="assets/test.jpg" alt="" />
+
+              <img src="assets/test.jpg" alt="" />
+
+              <img src="assets/test.jpg" alt="" />
+
+              <img src="assets/test.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="display: table;
+    margin: 0 auto;">
+          <div class="iconcontainer">
+
+            <a href="https://github.com/imparikh">
+              <div class="icon fa fa-github"></div>
+            </a>
+            <a href="https://medium.com/@iparikh">
+              <div class="icon fa fa-medium"></div>
+            </a>
+            <div class="icon fa fa-paperclip"></div>
+            <a href="https://www.behance.net/iparikh">
+              <div class="icon fa fa-behance"></div>
+            </a>
+            <a href="https://www.facebook.com/parikh.i.m?fref=ts">
+              <div class="icon fa fa-facebook"></div>
+            </a>
+            <a href="https://twitter.com/iparikh_">
+              <div class="icon fa fa-twitter"></div>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="spacertwenty"></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+  <script>
+    window.onload = function () {
+      $("#terrapinhackers").trigger("click");
+    };
+    $("#terrapinhackers").on("click", function () {
+      document.getElementById("title").innerHTML = "Terrapin Hackers";
+      document.getElementById("title").style.color = "#C61C1C";
+      document.getElementById("date").innerHTML = "PRESIDENT 2015 - 2016";
+      document.getElementById("punchline").innerHTML = "Making UMD the hacker school it was always meant to be";
+      document.getElementById("description").innerHTML = "The hacker community at UMD is something I would never have expected. It's a huge community that only wants to keep growing. Specifically, I am the president and am working to expand the club so all new hackers have access.";
+    });
+    $("#shell").on("click", function () {
+      document.getElementById("title").innerHTML = "Startup Shell";
+      document.getElementById("title").style.body = "#BA3523";
+      document.getElementById("date").innerHTML = "ETA Sheller 2015 - present";
+      document.getElementById("punchline").innerHTML = "Fostering tech and general awesomeness";
+      document.getElementById("description").innerHTML = "DESCRIPTION HERE"
+    });
+    $("#shh").on("click", function () {
+      document.getElementById("title").innerHTML = "Students Helping Honduras";
+      document.getElementById("title").style.color = "#25337C";
+      document.getElementById("date").innerHTML = "Winter 2016";
+      document.getElementById("punchline").innerHTML = "Helping build schools for children in Honduras";
+      document.getElementById("description").innerHTML = "DESCRIPTION HERE"
+    });
+    $("#sb").on("click", function () {
+      document.getElementById("title").innerHTML = "Sandbox Hackerspace";
+      document.getElementById("title").style.color = "#00B572";
+      document.getElementById("date").innerHTML = "Member/Manager 2015 - present";
+      document.getElementById("punchline").innerHTML = "Assisting in the development and furthering of new makerspaces on campus";
+      document.getElementById("description").innerHTML = "DESCRIPTION HERE"
+    });
+  </script>
+</body>
+
+</html>

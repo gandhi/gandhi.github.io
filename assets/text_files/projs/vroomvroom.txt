@@ -1,0 +1,5 @@
+099DAF
+<a href = "http://vroomvroom.space/">VRoom VRoom</a>
+Best Hardware Hack - HoyaHacks 2016 (01/16)
+Control a Spark Core car with an Oculus and Myo
+My team built a Jenga car powered by servos and a Spark Core (basically a wireless arduino). By attaching an iPhone to stream video, we could create a 3D environment for a user on a computer using Oculus VR and Virtual Desktop. This user could remotely control the car using basic WASD controls. In addition, we added controllability via Myo Armband; different gestures signalled different movements. Recieved "Best Hardware Hack" at <a href = "http://devpost.com/software/vroom-vroom">HoyaHacks 2016</a>.

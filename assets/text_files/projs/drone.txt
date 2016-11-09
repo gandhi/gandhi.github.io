@@ -1,0 +1,5 @@
+E771AA
+<a href = "http://news.mlh.io/the-making-of-drone-pollock-03-10-2016">>DronePollock</a>
+Hack to support Technica 2015 (11/15)
+Painting a canvas with a drone for the first time in history.
+For Technica (all-ladies hackathon), a team of me and four others built software to get a drone to automatically splatter paint on a canvas. This was basically like a mini-hackathon, we on midnight on Friday, and had 36 hours to get it done. We used nodejs for the automation.

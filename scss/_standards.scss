@@ -1,0 +1,96 @@
+.name {
+  /* ishaan parikh: */
+  font-family: $main-font;
+  font-size: 4em;
+  font-weight: bold;
+  color: #656565;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.spacereighty {
+  height: 80px;
+}
+
+.spacerforty {
+  height: 40px;
+}
+
+.spacersixty {
+  height: 60px;
+}
+
+.spacertwenty {
+  height: 20px;
+}
+
+.icon {
+  color: #B3B3B3;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.iconcontainer {
+  margin-top: 60px;
+  font-size: 2.4em;
+}
+
+.fa-behance {
+  &:hover {
+    color: #0064FF;
+  }
+  &:active {
+    color: darken(#0064FF, 5);
+  }
+}
+
+.fa-facebook {
+  &:hover {
+    color: #45619D;
+  }
+  &:active {
+    color: darken(#45619D, 5);
+  }
+}
+
+.fa-github {
+  &:hover {
+    color: #333333;
+  }
+  &:active {
+    color: darken(#333333, 5);
+  }
+}
+
+.fa-twitter {
+  &:hover {
+    color: #1DA1F2;
+  }
+  &:active {
+    color: darken(#1DA1F2, 5);
+  }
+}
+
+.fa-medium {
+  &:hover {
+    color: #02B875;
+  }
+  &:active {
+    color: darken(#02B875, 5);
+  }
+}
+
+.fa-paperclip {
+  &:hover {
+    color: #D0021B;
+  }
+  &:active {
+    color: darken(#D0021B, 5);
+  }
+}
+
+a {
+  text-decoration: none;
+}

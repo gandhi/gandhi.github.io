@@ -1,0 +1,5 @@
+C34D3E
+<a href = "https://startupshell.org/alumni/">Startup Shell Alumni Map</a>
+Project (11/15)
+Because community is the key.
+The Startup Shell community is absolutely amazing, and it's important future batches stay in touch with those of the past. This map allows alumni to put themselves on a map as a resource for all current members. Built using javascript, Google Sheets, and Google Maps' API.
