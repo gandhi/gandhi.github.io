@@ -1,5 +1,0 @@
-622D35
-Poshmark Bot
-Freelance (03/16)
-Easiest way to follow as many people as possible on Poshmark.
-A friend of mine has a small business selling used clothes, and he recently turned to Poshmark to speed up the process. He wants to gain a large presence quickly, but does not have the time to manually follow a ton of people. So, I wrote him this (if you happen to have a poshmark, try it out <a href = "http://104.131.1.56/start/">here</a>).

@@ -1,9 +1,0 @@
-drone
-cartly
-shellmap
-vroomvroom
-omnitestr
-poshmark
-doorunlocker
-smartspenders
-csgrade

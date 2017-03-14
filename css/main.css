@@ -110,25 +110,15 @@
 .name {
   /* ishaan parikh: */
   font-family: "Open Sans", sans-serif;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: bold;
   color: #656565;
   letter-spacing: 1px;
   text-align: center;
   margin-left: auto;
-  margin-right: auto; }
-
-.spacereighty {
-  height: 80px; }
-
-.spacerforty {
-  height: 40px; }
-
-.spacersixty {
-  height: 60px; }
-
-.spacertwenty {
-  height: 20px; }
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 2%; }
 
 .icon {
   color: #B3B3B3;
@@ -136,8 +126,10 @@
   margin-right: 15px; }
 
 .iconcontainer {
-  margin-top: 60px;
-  font-size: 2.4em; }
+  font-size: 2.4em;
+  margin: 0 auto;
+  display: table;
+  margin-bottom: 3%; }
 
 .fa-behance:hover {
   color: #0064FF; }
@@ -568,23 +560,24 @@ th {
     color: #656565;
     letter-spacing: 0px;
     font-weight: lighter;
-    line-height: 1.3em; }
+    line-height: 1.3em;
+    margin-top: 8%;
+    margin-bottom: 8%; }
   .content .description {
     /* The hacker community: */
     font-family: 'Raleway';
-    font-size: 16px;
+    font-size: 1em;
     color: #6F7577;
     letter-spacing: 0px;
     line-height: 1.75em; }
-
-.scroll {
-  overflow: scroll;
-  width: 100%;
-  height: 500px;
-  position: relative;
-  box-shadow: 0px 0px 2px 2px #DEDEDE; }
-  .scroll img {
+  .content .scroll {
+    overflow: scroll;
+    width: 100%;
+    height: 450px;
     position: relative;
-    width: 100%; }
+    box-shadow: 0px 0px 2px 2px #DEDEDE; }
+    .content .scroll img {
+      position: relative;
+      width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

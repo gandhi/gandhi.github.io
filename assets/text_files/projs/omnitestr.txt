@@ -1,5 +1,0 @@
-565656
-<a href = "https://github.com/OmniTestr">OmniTestr</a>
-PennApps 2015 (01/16)
-Load testing websites with public API requests.
-For PennApps, Sean Bae, Colin King, and I created a web app to load test any website (that you have permission to). Specifically, I worked on the master/slave interaction for the actual load testing, and data visualization with d3.js. While working on this, we also managed to win Hackenger, or the hackathon's <a href = "http://hackenger.pennapps.com/">huge puzzle</a>.

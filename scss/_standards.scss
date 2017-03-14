@@ -1,29 +1,15 @@
 .name {
   /* ishaan parikh: */
   font-family: $main-font;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: bold;
   color: #656565;
   letter-spacing: 1px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-}
-
-.spacereighty {
-  height: 80px;
-}
-
-.spacerforty {
-  height: 40px;
-}
-
-.spacersixty {
-  height: 60px;
-}
-
-.spacertwenty {
-  height: 20px;
+  margin-top: 5%;
+  margin-bottom: 2%;
 }
 
 .icon {
@@ -33,8 +19,10 @@
 }
 
 .iconcontainer {
-  margin-top: 60px;
   font-size: 2.4em;
+  margin: 0 auto;
+  display: table;
+  margin-bottom: 3%;
 }
 
 .fa-behance {

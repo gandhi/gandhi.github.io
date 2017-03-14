@@ -1,5 +1,0 @@
-BD162F
-<a href = "https://github.com/imparikh/csUMDGradeChecker">CS Grade Checker</a>
-Project (09/15)
-Because UMD CS doesn't tell me. 
-The university's cs department is phenomenal, but they never tell you when your grades are updated. So, I wrote a program to do so. It sends me a text everytime my grade changes. This was written entirely in python and is running off a web server.
