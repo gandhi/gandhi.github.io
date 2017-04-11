@@ -107,10 +107,10 @@ $("#csnotifs").on("click", function() {
     document.getElementById("description").innerHTML = "A few friends and I are building an application to automatically notify you when your grades change in the UMD CS Grade Server. Currently in progress.<br><a href='https://mycs.courses'>Website</a><br><a href='https://github.com/gandhi/cs_checker'>Repo</a>"
 });
 
-$(#gnop).on("click", function() {
+$("#gnop").on("click", function() {
     document.getElementById("title").innerHTML = "gnoP: AR Human-Scale Pong";
     document.getElementById("title").style.color = "#CE0A0A";
     document.getElementById("date").innerHTML = "April 2017";
     document.getElementById("punchline").innerHTML = "Pong using projection mapping and computer vision";
-    document.getElementById("description").innerHTML = "For Bitcamp 2017, my team decided to build off last year's idea of <a href=\"https://www.youtube.com/watch?v=kLliPQ02tAI\">beer pong</a> by building regular pong. However, we did it by projecting a game of pong on the ground, and the paddles were moved by the gamers' bodies. We tracked people by making them wear a neon green vest and using OpenCV. <br> Video coming soon!";
+    document.getElementById("description").innerHTML = "For Bitcamp 2017, my team decided to build off last year's idea of <a href=\"https://www.youtube.com/watch?v=kLliPQ02tAI\">beer pong</a> by building regular pong. However, we did it by projecting a game of pong on the ground, and the paddles were moved by the gamers' bodies. We tracked people by making them wear a neon green vest and using OpenCV. <br> Video coming soon!<br><a href = \"https://github.com/helloworld/human-pong\">Repo</a>";
 });

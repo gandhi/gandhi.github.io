@@ -2,7 +2,7 @@ var fs = require('fs');
 
 const PROJ = '<!-- PROJ -->';
 const ORG = '<!-- ORG -->';
-const htmlFile = './indexTest.html';
+const htmlFile = './index.html';
 const jsFile = './js/main.js';
 const ORG_RE = /\<\!\-\-\sORG\s\-\-\>/
 const PROJ_RE = /\<\!\-\-\sPROJ\s\-\-\>/
@@ -44,7 +44,7 @@ rl.question('Org or project? ', (answer) => {
                             punchline = answer;
                             rl.question('What is the description of your project? ', (answer) => {
                                 description = answer;
-                                var newjs = `\n\$(#${id}).on(\"click\", function() {\n` +
+                                var newjs = `\n\$("#${id}").on(\"click\", function() {\n` +
                                     `document.getElementById("title").innerHTML = "${title}";\n` +
                                     `document.getElementById("title").style.color = "#${titleColor}";\n` +
                                     `document.getElementById("date").innerHTML = "${date}";\n` +
